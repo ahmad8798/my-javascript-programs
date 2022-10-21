@@ -1,3 +1,5 @@
+/*given a string and search element (string) it returns the positions of search element 
+if they found  at multiple places. else if  return the position of search element */
 function lSearch(str, Sel) {
   let arr = str.split(" ");
   let found = 0;
