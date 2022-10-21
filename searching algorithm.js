@@ -11,7 +11,7 @@ function lSearch(str, Sel) {
     }
   }
   if (found>0) {
-     console.log(`${Sel} found at position ${position} `);
+     console.log(`element '${Sel}' found at position ${position} `);
   } else {
     console.log(`${Sel} not found`);
   }
